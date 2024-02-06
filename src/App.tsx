@@ -1,5 +1,5 @@
 import './App.scss'
-import './fonts/karminabold.otf'
+import '../src/assets/fonts/karminabold.otf'
 // import Cake from './components/Cake/Cake'
 
 function App() {

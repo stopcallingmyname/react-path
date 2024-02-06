@@ -6,7 +6,6 @@ $font-small: 1.125rem;
 
 @font-face {
   font-family: "Karmina";
-  src:
-    local("karminabold"),
-    url("../../src/fonts/karminabold.otf") format("opentype");
+  src: local("karminabold"),
+    url("../../src/assets/fonts/karminabold.otf") format("opentype");
 }
