@@ -1,6 +1,6 @@
 import './App.scss'
-import '../src/assets/fonts/karminabold-webfont.woff'
-import '../src/assets/fonts/karminabold-webfont.woff2'
+// import '../src/assets/fonts/karminabold-webfont.woff'
+// import '../src/assets/fonts/karminabold-webfont.woff2'
 // import Cake from './components/Cake/Cake'
 
 function App() {
