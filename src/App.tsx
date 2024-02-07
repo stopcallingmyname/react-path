@@ -1,5 +1,6 @@
 import './App.scss'
-import '../src/assets/fonts/karminabold.otf'
+import '../src/assets/fonts/karminabold-webfont.woff'
+import '../src/assets/fonts/karminabold-webfont.woff2'
 // import Cake from './components/Cake/Cake'
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
 					
 					<svg className='pin-icon'></svg>
 				</div>
-				<h2>малень<span className='colored'>к</span>ое начал<span className='colored'>o</span> большой ис<span className='colored'>т</span>ории</h2>
+				<h2>малень<span className='colored'>к</span>ое начал<span className='colored'>о</span> большой ис<span className='colored'>т</span>ории</h2>
 			</div>
 				<div className='path-container'>
 					<div className='path-date --r'>
