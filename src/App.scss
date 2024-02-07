@@ -153,6 +153,12 @@
 body {
   background-color: $tinted-black;
   color: $white;
+
+  display: inline-flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 5.24rem;
 }
 
 .container {
@@ -161,7 +167,7 @@ body {
   align-items: center;
   gap: 100px;
   padding: 130px 10px;
-  margin: 0px 84px;
+  // margin: 0px 84px;
 
   & .colored {
     color: $red;
@@ -184,6 +190,7 @@ body {
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.37125rem;
+    margin: 0;
   }
 }
 
