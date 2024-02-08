@@ -206,12 +206,6 @@
   }
 }
 
-.path-block {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .path-container,
 .path-block {
   display: flex;
@@ -222,7 +216,7 @@
   align-self: stretch;
 
   & .path-block {
-    padding: 0 5.24rem;
+    padding: 0 4.24rem;
   }
 
   & .path-date {
@@ -282,7 +276,7 @@
   height: 6.1rem;
   position: absolute;
   right: 0;
-  margin: 0 2rem 9rem 0rem;
+  margin: 0 3rem 9rem 0rem;
   rotate: 13deg;
   padding: 1px;
 }
