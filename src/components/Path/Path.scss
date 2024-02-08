@@ -151,8 +151,7 @@
   flex-direction: column;
   align-items: center;
   gap: 100px;
-  padding: 130px 10px;
-  // margin: 0px 84px;
+  padding: 130px 0;
 
   & .colored {
     color: $red;
@@ -165,6 +164,7 @@
   justify-content: center;
   align-items: center;
   gap: 1.0625rem;
+  padding: 0 5.24rem;
 
   & h2,
   span {
@@ -212,13 +212,18 @@
   align-items: center;
 }
 
-.path-container {
+.path-container,
+.path-block {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 4.0625rem;
   align-self: stretch;
+
+  & .path-block {
+    padding: 0 5.24rem;
+  }
 
   & .path-date {
     display: flex;
@@ -270,15 +275,16 @@
   padding: 1px;
 }
 
-.notification-heart {
+.notification-heart-icon {
   background-image: url("../../assets/notification_heart.svg");
   background-repeat: no-repeat;
-  width: 5.3rem;
-  height: 6.3rem;
+  width: 5.1rem;
+  height: 6.1rem;
   position: absolute;
   right: 0;
   margin: 0 2rem 9rem 0rem;
   rotate: 13deg;
+  padding: 1px;
 }
 
 .message {
@@ -288,9 +294,10 @@
   align-items: center;
   gap: 1.5625rem;
   align-self: stretch;
+  padding: 0 2rem;
 
   & .separator {
-    // width: 5.3125rem;
+    width: 5.3125rem;
     height: 0.0625rem;
     border-radius: 1rem;
     background: $red;
@@ -310,6 +317,14 @@
   }
 }
 
+.couple-icon {
+  background-image: url("../../assets/couple.svg");
+  background-repeat: no-repeat;
+  width: 8.3rem;
+  height: 8.2rem;
+  padding: 1px;
+}
+
 .ending {
   display: flex;
   flex-direction: column;
@@ -317,6 +332,7 @@
   align-items: center;
   gap: 0.625rem;
   align-self: stretch;
+  padding: 0 5rem;
 
   & h2,
   span {

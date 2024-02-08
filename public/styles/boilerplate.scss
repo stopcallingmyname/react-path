@@ -21,7 +21,6 @@ html {
 /* Firefox */
 * {
   scrollbar-width: none;
-  scrollbar-color: #ffffff #ffffff;
 }
 
 @media screen and (max-width: 768px) {
@@ -34,29 +33,4 @@ html {
 *::-webkit-scrollbar {
   display: none;
   -webkit-appearance: none;
-}
-*::-webkit-scrollbar-track {
-  border-radius: 20px;
-  background-color: #ff1111;
-}
-
-*::-webkit-scrollbar-track:hover {
-  background-color: #1e4e8d;
-}
-
-*::-webkit-scrollbar-track:active {
-  background-color: #3cff00;
-}
-
-*::-webkit-scrollbar-thumb {
-  border-radius: 20px;
-  background-color: #ff00aa;
-}
-
-*::-webkit-scrollbar-thumb:hover {
-  background-color: #00ffe5;
-}
-
-*::-webkit-scrollbar-thumb:active {
-  background-color: #3bff19;
 }
