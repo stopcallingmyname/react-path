@@ -256,18 +256,18 @@
         line-height: normal;
         letter-spacing: 0.225rem;
       }
-
-      & .heart-icon {
-        background-image: url("../../assets/heart.svg");
-        background-repeat: no-repeat;
-        width: 1.0625rem;
-        height: 0.92969rem;
-        stroke-width: 1px;
-        stroke: $red;
-        padding: 1px;
-      }
     }
   }
+}
+
+.heart-icon {
+  background-image: url("../../assets/heart.svg");
+  background-repeat: no-repeat;
+  width: 1.0625rem;
+  height: 0.92969rem;
+  stroke-width: 1px;
+  stroke: $red;
+  padding: 1px;
 }
 
 .notification-heart {
@@ -279,4 +279,54 @@
   right: 0;
   margin: 0 2rem 9rem 0rem;
   rotate: 13deg;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5625rem;
+  align-self: stretch;
+
+  & .separator {
+    // width: 5.3125rem;
+    height: 0.0625rem;
+    border-radius: 1rem;
+    background: $red;
+  }
+
+  & h4,
+  span {
+    margin: 0;
+    align-self: stretch;
+    color: $white;
+    text-align: center;
+    font-size: $message-text;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.3375rem;
+  }
+}
+
+.ending {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  align-self: stretch;
+
+  & h2,
+  span {
+    align-self: stretch;
+    text-align: center;
+    font-size: $font-medium;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.37125rem;
+    margin: 0;
+  }
 }
