@@ -88,11 +88,17 @@ export default function Path() {
 							2024</h3>
 						</div>
                         <div className='notification-heart-icon'></div>
+                       
 					</div>
                     </div>
 					
                     <div className='message'>
+                        <div className='mail-container'>
+                         
+                            <div className='mail-icon'></div>
                         <div className='separator'></div>
+                        </div>
+                     
                         <h4>время пролетело, как мне кажется, мгновенно.</h4>
                         <h4>За э<span className='colored'>т</span>и 9 месяцев м<span className='colored'>ы</span> вместе пережили огро<span className='colored'>м</span>ное количеств<span className='colored'>о</span> эмоций, кучу неверо<span className='colored'>я</span>тных историй и путешествий, хоть и небольших, но не менее захватывающих!</h4>
                         <h4>встретили вместе множество закатов и рассветов, побывали во многих живописных местах, ох, а сколько всего нам еще предстоит в<span className='colored'>м</span>есте пройти!</h4>
